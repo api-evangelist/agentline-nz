@@ -1,4 +1,4 @@
-# agentline-nz
+# Agentline NZ
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentline-nz is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentline.nz/
+Agentline NZ provides AI assistants with a dedicated @agentline.nz email inbox, enabling them to receive sign‑in codes, send and read emails, and interact via a REST API and MCP server. The service offers a 7‑day free trial, plans starting at NZ$29/month, and upcoming texting and phone number features. Documentation, quickstart guides, pricing, and support are publicly available, and the platform integrates with ChatGPT, Claude, and other agents.
+
+**Areas:** AI · Email · Assistant · NZ · SaaS · Company
+
+## Agentline NZ on APIs.io
+
+Everything profiled for Agentline NZ is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentline-nz/](https://apis.io/providers/agentline-nz/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Agentline API](https://apis.io/apis/agentline-nz/agentline-api/) — Email inboxes for AI agents, providing REST endpoints for email, SMS, calls and voice.
+- [Agentline API API](https://apis.io/apis/agentline-nz/agentline-api-api/) — Email inboxes for AI agents: send and read email and wait for one-time codes. Texting is coming soon; the SMS, calls, voice and owner mobile endpoints are…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Billing](https://apis.io/schemas/agentline-nz/agentline-nz-billing/)
+- [Call](https://apis.io/schemas/agentline-nz/agentline-nz-call/)
+- [Email](https://apis.io/schemas/agentline-nz/agentline-nz-email/)
+- [EmailSummary](https://apis.io/schemas/agentline-nz/agentline-nz-email-summary/)
+- [Me](https://apis.io/schemas/agentline-nz/agentline-nz-me/)
+- [Signup](https://apis.io/schemas/agentline-nz/agentline-nz-signup/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agentline Nz Context](https://apis.io/jsonld/agentline-nz/agentline-nz-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Agentline NZ API Rules](https://apis.io/rules/agentline-nz/agentline-nz-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentline Nz Authentication](https://apis.io/security/agentline-nz/agentline-nz-authentication/)
+- [Agentline Nz Domain Security](https://apis.io/security/agentline-nz/agentline-nz-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Agentline Nz Plans Pricing](https://apis.io/plans/agentline-nz/agentline-nz-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentline.nz/)
+- [Documentation](https://agentline.nz/docs)
+- [Getting started](https://agentline.nz/how-it-works)
+- [API reference](https://agentline.nz/openapi.json)
+- [Pricing](https://agentline.nz/pricing)
+- [Support](https://agentline.nz/help)
+- [Changelog](https://agentline.nz/changelog)
+- [Terms of service](https://agentline.nz/terms)
+- [Privacy policy](https://agentline.nz/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.6** — strong · rubric 0.25.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 50.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 73.2 |
+
+**Agent readiness 38.4** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentline-nz/](https://apis.io/providers/agentline-nz/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Agentline NZ: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentline-nz/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
